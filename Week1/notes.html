@@ -18,7 +18,7 @@
     <p> This week,i learnt about local Storage, i understand that data can be stored or saved and be retrieved easily even after the file,folder or browser
 has being closed, saving locally can be accessed even without conectng      </p>
     <p>
-        From the book "doing stuff with web", an examplem was given on how to save files or data locall,withe the story editor, 
+        From the book "doing stuff with web", an example was given on how to save files or data locally, withe the story editor, 
         the following javascript codes or functions were used to save to local storage
     </p>
     <p id="code">
@@ -27,11 +27,13 @@ has being closed, saving locally can be accessed even without conectng      </p>
         var storyHTML = localStorage.getItem("storyName")
         document.getElementById("story_editor").value = storyHTML
         }
+        <br>
         function saveStory(){
         var storyName = document.getElementById("name_input").value
         var storyHTML = document.getElementById("story_editor").value
         localStorage.setItem(storyName, storyHTML)
         }
+        <br>
         function displayStory(){
         var storyHTML = document.getElementById("story_editor").value
         document.getElementById("story_display").innerHTML = storyHTML
