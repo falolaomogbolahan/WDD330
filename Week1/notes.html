@@ -6,18 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Local Storage Note</title>
     <link rel="stylesheet" href="css/normalize.css"> 
-    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="wk1/styles.css"> 
 
+
+<h1> Local Storage, Week 1 </h1>
+<h3> Falola S. Omogbolahan
+</h3>
 
 <main>
-    <h3>Notes</h3>
+    <h2>Notes</h2>
     <p> This week,i learnt about local Storage, i understand that data can be stored or saved and be retrieved easily even after the file,folder or browser
 has being closed, saving locally can be accessed even without conectng      </p>
     <p>
         From the book "doing stuff with web", an examplem was given on how to save files or data locall,withe the story editor, 
         the following javascript codes or functions were used to save to local storage
     </p>
-    <p>
+    <p id="code">
         function loadStory(){
         var storyName = document.getElementById("name_input").value
         var storyHTML = localStorage.getItem("storyName")
@@ -33,16 +37,15 @@ has being closed, saving locally can be accessed even without conectng      </p>
         document.getElementById("story_display").innerHTML = storyHTML
         }
     </p>
-    <h3>Questions</h3>
+    <h2>Questions</h2   >
     <ol>
         <li>Can a locally saved file be accessed from another device?</li>
     </ol>
     
-    <p>Here is a link to my <a href="story_editor.html">Story Editor</a> </p>
 </main>
-<p> 
+<footer>        
     &copy;<span id="year"> 2021</span> | Falola S. Omogbolahan | Lagos | <a href="https://www.byui.edu/online">BYUI Online Learning</a> <br> 
     Last Updated: <span id="last_Update"></span>
-</p>
+</footer>
 </body>
 </html>
