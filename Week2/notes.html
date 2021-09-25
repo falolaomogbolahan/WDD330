@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Local Storage Note</title>
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <link rel="stylesheet" href="css/styles.css"> 
+
+
+<h1> Local Storage, Week 2 </h1>
+<h3> Falola S. Omogbolahan
+</h3>
+
+<main>
+    <h2>Notes</h2>
+    <h3>Programing Basics</h3>
+    <ol>
+        <li>Data types: Number, String, Infinity, Null, NaN, Symbol, Boolean</li>
+        <li>Always avoid global variables by using const or let rather than var where possible.</li>
+        <li>Seek to always use hard equality === !==</li>
+    </ol>
+    <h3>Arrays, Logics and Loops</h3>
+    <ol>
+        <li>Sets are lists that store unique values only.</li>
+        <li>Maps are key value pairs.</li>
+    </ol>
+    <h3>Functions</h3>
+    <p>Function is a chunck of code referenced by a name, to invoke a function, you simply enter the function's name, followed by parenthese,
+        <br> example: hello();
+        <br> << 'Hello world!' 
+        
+    </p>
+    <ol>
+        <li>Hoisting means moving variables to the top of the scope.</li>
+        <li>A
+            function that is passed as an argument to another is known as a callback</li>
+    </ol>
+
+
+  <h2> Things to remember </h2>
+    <p>>
+        Use <em>let</em> instead of <em>var</em> because let allows block scope which var doesnt. 
+        var may be seen in older code because it's an older version
+        when writing variable name use either camelCased or underscore_separated
+    </p>
+            In the following code, changing d.value also changes c.value because d and c reference the same object
+            <br>
+            <div style="background: lightgray; padding: 10px;">
+            const c = { value: 1 };<br>
+            let d = c; // c.value = 1, d.value = 1<br>
+            d.value = 2; // c.value = 2, d.value = 2<br>
+            </div>
+        </li>
+        <li>String functions
+            <ul>
+                <li>.toUpperCase() : string</li>
+                <li>.toLowerCase() : string</li>
+                <li>.charAt(index) : char</li>
+                <li>.indexOf(character) : number</li>
+                <li>.lastIndexOf(character) : number</li>
+                <li>.startsWith(character) : bool</li>
+                <li>.endsWith(character) : bool</li>
+                <li>.concat('string', 'anotherString') : string</li>
+            </ul>
+      
+    <h2>Questions</h2>
+  
+    
+</main>
+<footer>        
+    &copy;<span id="year"> 2021</span> | Falola S. Omogbolahan | Lagos | <a href="https://www.byui.edu/online">BYUI Online Learning</a> <br> 
+    Last Updated: <span id="last_Update"></span>
+</footer>
+</body>
+</html>
+
