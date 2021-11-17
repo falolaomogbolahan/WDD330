@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+  
+}
+
+h2 {
+       background-color:brown;
+       padding: 5px;
+       margin: auto;
+       font-family: auto;
+       border-radius: 10px;
+}
+
+h1 { font-family: monospace;}
+
+footer {text-align: center;}
+
+input { width: 50%;
+        line-height: 2.0;
+        padding: 2px 2px ;}
+
+#list { text-align: start;
+        text-decoration: none;
+        margin: 10px;
+        padding-left: 15em;}
+
+:checked {color:gold;}
