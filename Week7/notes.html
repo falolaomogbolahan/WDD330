@@ -4,59 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Week 8 Notes</title>
+    <title>Week 7 Notes</title>
     <link rel="stylesheet" href="css/normalize.css"> 
     <link rel="stylesheet" href="css/styles.css"> 
 
 
-<h1> Ajax, Week 8 </h1>
+<h1> Further Functions and Ajax, Week 7 </h1>
 <h3> Falola S. Omogbolahan
 </h3>
 
 <main>
-    <h2>Notes</h2>
-    <p>
-          
+    
+<h2>Notes</h2>
+
+<h3>Further Functions</h3>
+<p>
+          Futher functions are first-objects that have properties and methods themselves, for example all functions have a <i>Length</i> propert that returns the number of parameters the funtion has. 
+          <b><i>EXAMPLE</i></b> <br>
+          function square(x) {
+              return x*x; 
+          }   
+square.length 
+... 1 
+<hr>
+<b><p>Call and Apply Methods </p></b>
+This can be used to set value of <i>this</i> inside a function to an object that is provided as the first argument.
+
+
+
+<b><p>Immediately Invoked Function Expressions</p></b>
+This are functions that are enclosed in parentheses and immediately followed by double parentheses so they're invoked. they are useful for namespacing variables and setting default values. 
     </p>
-<p> Forms are the primary methood used for entering data into a browser.
-    Forms are made up of <i><form></i> element that contains form controls like input fields, select menus and buttons. 
-    each form control hads an initial value that is found in the HTML code, the value can be change using Javascriptor by etering informationor interacting with the form's interface. 
-    A simple example of a form that contains one input field is shown below,
+<hr>
+    <p> Functions that return other functions are known as higher-order functions </p>
+    <p>Functional programming involves breaking processes down into steps that can be applied as a series of functions</p>
+    <p>Functions are able to dyna,ically redefine themselves in the body of the body of te funcuion, depending on certain conditions. </p>
+<h3>Ajax</h3>
+<p>Ajax is a technique that allows wb pages tocommunicate asynchronously with a server, and it dynamically updates web pags without reloading. this enables data to be sent and received in the background as well as portions of a page to be updated in response to user events, while the rest of the program continues to run.  </p>
+<p>The data can be sent in many forms, but its usually in JSON. </p>    
+<p>Ajax can be used for making partial page udates without having to do a full page reload.</p>
+<p>Ajax can be used fo communicating with extenal APIs, it can also be used to fetch API.</p>
 
-    <i>
-        <!doctype html> 
-        <html lang='en'>
-            <head>
-                <meta charset='utf-8'>
-                <title>Search</title>
-            </head>
-            <form name='search' action='/search'>
-                <input name='searchInput'>
-                <button type='submit'> Search </button>
-            </form>
-            
-    </i>
-</p>
-
-<p> Object Oriented Programming "OOP" is a way of programming that uses objects that encapsulate their own properties and methods. </p>
-<p>In Object-oriented Programmming there are three main concepts.</p>
-        <ol>
-            <li>
-                Encapsulation - Parts of the program are inside objects
-                and only essential functionalities are exposed to the end user.
-            </li>
-            <li>
-                Polymorphism - The same process can be used for different objects.
-                Various objects can be used for the same method.
-            </li>
-            <li>
-                Inheritance - You can take an object that already exists and Inherit
-                all its properties and methods.
-            </li>
-        </ol>
-       
-
-    <h2>Questions</h2>
+<h2>Questions</h2>
   
     
 </main>
